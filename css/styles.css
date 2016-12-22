@@ -1,0 +1,59 @@
+#header-nav {
+    background-color: darkcyan;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-default .navbar-brand {
+    margin: 15px;
+    color: white;
+    font-size: 2em;
+}
+
+.navbar-toggle {
+    margin: 20px;
+}
+
+.menu {
+    background-color: lightgray;
+    position: relative;
+    padding: 2px 15px 15px 15px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.chicken {
+    font-weight: bold;
+    padding-bottom: 15px;
+    font-size: 120%;
+}
+
+#food {
+    margin: 15px;
+}
+
+body {
+    font-family: cursive, serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+#navbar-collapse li a:hover {
+    background-color: lightcyan;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
