@@ -13,18 +13,20 @@
     margin: 20px;
 }
 
-.menu {
-    background-color: lightgray;
-    position: relative;
-    padding: 2px 15px 15px 15px;
-    text-align: left;
-    font-size: 15px;
-}
-
-.chicken {
+.chicken, .beef, .sushi {
     font-weight: bold;
     padding-bottom: 15px;
     font-size: 120%;
+}
+
+.col-1, .col-2, .col-3 {
+    background-color: lightgray;
+    /*position: relative;*/
+    padding: 2px 15px 15px 15px;
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 5px gray;
 }
 
 #food {
